@@ -12,6 +12,7 @@ const gerenateClassName = createGenerateClassName({
 });
 
 export default ({ history }) => {
+  console.log('yoo');
   return (
     <div>
       <StylesProvider generateClassName={gerenateClassName}>
