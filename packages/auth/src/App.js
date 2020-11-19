@@ -12,6 +12,7 @@ const gerenateClassName = createGenerateClassName({
 });
 
 export default ({ history, onSignIn }) => {
+  console.log('he');
   return (
     <div>
       <StylesProvider generateClassName={gerenateClassName}>
